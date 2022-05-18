@@ -100,7 +100,7 @@ class instructorPage1 : AppCompatActivity() {
 
         }
 
-        // "add course" butonuna basıldıgında listview'da listelenmesi gerek (?)
+        // "add course" butonuna basıldıgında listview'da listelenmesi gerek (??)
 
         /*val arrayAdapterList: ArrayAdapter<*>
         val list1 = lesson
