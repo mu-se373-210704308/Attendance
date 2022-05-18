@@ -1,5 +1,6 @@
 package tr.edu.maltepe.project.attendance
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -17,6 +18,8 @@ class instructorPage1 : AppCompatActivity() {
     val lessoncode2 = arrayOf("0","1","2","3","4","5","6","7","8")
     val lessoncode3 = arrayOf("0","1","2","3","4","5","6","7","8")
     val sessioncode = arrayOf("01","02","03","04","05","06","07","08","09")
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_instructor_page1)
@@ -42,6 +45,7 @@ class instructorPage1 : AppCompatActivity() {
             override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
                 Toast.makeText(this@instructorPage1,"Selected",Toast.LENGTH_SHORT).show()
             }
+
             override fun onNothingSelected(p0: AdapterView<*>?) {
                 TODO("Not yet implemented")
             }
@@ -96,6 +100,13 @@ class instructorPage1 : AppCompatActivity() {
 
         }
 
+        // "add course" butonuna basıldıgında listview'da listelenmesi gerek (?)
 
+        /*val arrayAdapterList: ArrayAdapter<*>
+        val list1 = lesson
+
+        var courseList = findViewById<ListView>(R.id.courseList)
+        arrayAdapterList = ArrayAdapter(this,android.R.layout.simple_list_item_1,list1)
+        courseList.adapter = arrayAdapterList*/
     }
 }
