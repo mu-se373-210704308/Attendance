@@ -12,8 +12,9 @@
         android:layout_height="48dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="82dp"
+        android:background="@color/blue"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
         android:id="@+id/spinner2"
@@ -21,8 +22,9 @@
         android:layout_height="48dp"
         android:layout_marginStart="14dp"
         android:layout_marginTop="82dp"
+        android:background="@color/blue"
         app:layout_constraintStart_toEndOf="@+id/spinner1"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
         android:id="@+id/spinner3"
@@ -30,8 +32,9 @@
         android:layout_height="48dp"
         android:layout_marginStart="14dp"
         android:layout_marginTop="82dp"
+        android:background="@color/blue"
         app:layout_constraintStart_toEndOf="@+id/spinner2"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
         android:id="@+id/spinner4"
@@ -39,8 +42,9 @@
         android:layout_height="48dp"
         android:layout_marginStart="14dp"
         android:layout_marginTop="82dp"
+        android:background="@color/blue"
         app:layout_constraintStart_toEndOf="@+id/spinner3"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
         android:id="@+id/spinner5"
@@ -49,9 +53,10 @@
         android:layout_marginStart="14dp"
         android:layout_marginTop="82dp"
         android:layout_marginEnd="16dp"
+        android:background="@color/blue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/spinner4"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button2"

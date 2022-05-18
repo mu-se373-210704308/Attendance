@@ -6,6 +6,9 @@ import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Spinner
+import kotlinx.android.synthetic.main.activity_main.*
+import android.widget.*
+
 import android.widget.Toast
 
 class instructorPage1 : AppCompatActivity() {
@@ -37,9 +40,8 @@ class instructorPage1 : AppCompatActivity() {
         spinner1.adapter = arrayAdapter
         spinner1.onItemSelectedListener = object : AdapterView.OnItemSelectedListener{
             override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
-                TODO("Not yet implemented")
+                Toast.makeText(this@instructorPage1,"Selected",Toast.LENGTH_SHORT).show()
             }
-
             override fun onNothingSelected(p0: AdapterView<*>?) {
                 TODO("Not yet implemented")
             }
@@ -49,7 +51,7 @@ class instructorPage1 : AppCompatActivity() {
         spinner2.adapter = arrayAdapter2
         spinner2.onItemSelectedListener = object : AdapterView.OnItemSelectedListener{
             override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
-                TODO("Not yet implemented")
+                Toast.makeText(this@instructorPage1,"Selected",Toast.LENGTH_SHORT).show()
             }
 
             override fun onNothingSelected(p0: AdapterView<*>?) {
@@ -61,7 +63,7 @@ class instructorPage1 : AppCompatActivity() {
         spinner3.adapter = arrayAdapter3
         spinner3.onItemSelectedListener = object : AdapterView.OnItemSelectedListener{
             override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
-                TODO("Not yet implemented")
+                Toast.makeText(this@instructorPage1,"Selected",Toast.LENGTH_SHORT).show()
             }
 
             override fun onNothingSelected(p0: AdapterView<*>?) {
@@ -73,7 +75,7 @@ class instructorPage1 : AppCompatActivity() {
         spinner4.adapter = arrayAdapter4
         spinner4.onItemSelectedListener = object : AdapterView.OnItemSelectedListener{
             override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
-                TODO("Not yet implemented")
+                Toast.makeText(this@instructorPage1,"Selected",Toast.LENGTH_SHORT).show()
             }
 
             override fun onNothingSelected(p0: AdapterView<*>?) {
@@ -85,7 +87,7 @@ class instructorPage1 : AppCompatActivity() {
         spinner5.adapter = arrayAdapter5
         spinner5.onItemSelectedListener = object : AdapterView.OnItemSelectedListener{
             override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
-                TODO("Not yet implemented")
+                Toast.makeText(this@instructorPage1,"Selected",Toast.LENGTH_SHORT).show()
             }
 
             override fun onNothingSelected(p0: AdapterView<*>?) {
