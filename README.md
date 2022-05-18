@@ -1,5 +1,5 @@
 # Attendance
-Uploaded | 11.05.2022
+Uploaded | 11.05.2022  
 Updated | 18.05.2022
 
 Sayın hocam, Projenin UI kısmını geçen haftaki dersimizde yapıp yüklemiştim. Sanırım görmemişsiniz ve assignment notu olarak 0 vermişsiniz. Eğer mümkünse notumu güncelleyebilir misiniz? Saygılarımla.  
