@@ -11,6 +11,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 import android.widget.*
 
 import android.widget.Toast
+import kotlinx.android.synthetic.main.activity_instructor_page1.*
 
 class instructorPage1 : AppCompatActivity() {
     val lesson = arrayOf("CEN","SE")
@@ -109,4 +110,24 @@ class instructorPage1 : AppCompatActivity() {
         arrayAdapterList = ArrayAdapter(this,android.R.layout.simple_list_item_1,list1)
         courseList.adapter = arrayAdapterList*/
     }
+
+    // spinnerda seçtiklerimizi doğru bir şekilde tutuyor mu diye kontrol ediyoruz (?)
+
+    /*override fun onItemSelected(p0: AdapterView<*>?, view: View?, position: Int, id: Long) {
+        if (parent == spinner1){
+
+        }
+        if (parent == spinner2){
+
+        }
+        if (parent == spinner3){
+
+        }
+        if (parent == spinner4){
+
+        }
+        if (parent == spinner5){
+
+        }
+    }*/
 }
